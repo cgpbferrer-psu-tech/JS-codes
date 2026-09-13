@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+fetch("https://picsum.photos/200") // https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U
+    .then(response => response.blob())
+    .then(imageBlob => {
+        const imageURL = URL.createObjectURL(imageBlob);
+        const imgElement = document.createElement("img");
+        imgElement.src = imageURL;
+        document.body.appendChild(imgElement);
+    })
+    .catch(error => console.error("Fetch error:", error));
+</script>
+</body>
+
