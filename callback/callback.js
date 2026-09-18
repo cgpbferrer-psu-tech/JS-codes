@@ -34,31 +34,76 @@
 // sample1();
 
 
-/*
 
+
+
+ /*
+
+// simple callback
+
+
+// function 1
 function hello(callback){
     console.log("Hello");
         callback();
 }
-
+// function 2
 function order(){
     console.log("What is your order?");
 }
 
+hello(order);
+
+
+*/
+// ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+
+
+
+
+
+
+
+/*
+
+// function 1
+function hello1(){
+    console.log("Hello");
+}
+// function 2
+function order2(){
+    console.log("What is your order?");
+}
+
+hello1();
+order2();
+
+/*
+
+
+
+/*
+
+// function 3
 function serve(){
     console.log("Order is served!");
 }
 
+// function 4
 function payment(){
     console.log("You paid your order!");
 }
 
-hello(order);
+
 payment();
 serve();
 
+/*
 
-*/
+// */
 
 
 

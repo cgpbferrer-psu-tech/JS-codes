@@ -1,6 +1,8 @@
 // Ways to declare a variable
 // `var`, `let`, & `const`
 
+/*
+
 let firstName = 'John';
 const lastName = 'Doe';
 let age = 30;
@@ -45,6 +47,7 @@ console.log(arr);
 const person = {
   name: 'Brad',
 };
+
 person.name = 'John';
 person.email = 'brad@gmail.com';
 console.log(person);
@@ -58,3 +61,49 @@ const d = 10,
 
 console.log(d);
 console.log(a);
+
+
+*/
+
+// let score = 100;
+// score = 50;
+
+// console.log(score);
+
+// const pi = 3.14;
+// pi = 3.15;
+
+// console.log(pi);
+
+
+// mutable // the same way as let but it is the old fashion way to declare a variable
+// var age = 20;
+// age = 21;
+// console.log(age);
+
+// function
+// function hello(){
+//   console.log("hello world");
+// }
+
+// hello();
+
+
+/* and end with
+
+// object
+const person = {
+  name:'Brad',
+  age:20,
+  hobbies:["coding", "plays video games", "hiking"]
+};
+
+console.log(person);
+
+ */
+
+let score = 50;
+
+console.log(score);
+
+typeof 50;

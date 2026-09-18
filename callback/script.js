@@ -81,6 +81,7 @@ function processPayment(callback) {
 
     let total = 300;
     let payment = 500;
+    payment = 200;
 
     console.log("Total amount: ₱" + total);
     console.log("Payment: ₱" + payment);
