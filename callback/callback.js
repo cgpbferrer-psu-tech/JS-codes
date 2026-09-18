@@ -4,31 +4,93 @@
 // used to handle  asynchronous operations
 // also used to ensure that a function is not going to run before a task is completed
 
-// also o used: Reading files, Network requests, Interacting with databases
+// also used: Reading files, Network requests, Interacting with databases
 
-function hello(){
+// function hello(){
+//     console.log("Hello");
+// }
+
+// function goodbye(){
+//     console.log("Goodbye");
+// }
+
+// goodbye();
+// hello();
+
+
+// function sample(){
+//     setTimeout(() => {
+//     console.log("This is a sample function");
+//     }, 2000);
+// }
+
+// function sample1(){
+//     setTimeout(function () {
+//     console.log("This is a sample function");
+//     }, 2000);
+// }
+
+// sample();
+// sample1();
+
+
+/*
+
+function hello(callback){
     console.log("Hello");
+        callback();
 }
 
-function goodbye(){
-    console.log("Goodbye");
+function order(){
+    console.log("What is your order?");
 }
 
-goodbye();
-hello();
-
-
-function sample(){
-    setTimeout(() => {
-    console.log("This is a sample function");
-    }, 2000);
+function serve(){
+    console.log("Order is served!");
 }
 
-function sample1(){
-    setTimeout(function () {
-    console.log("This is a sample function");
-    }, 2000);
+function payment(){
+    console.log("You paid your order!");
 }
 
-sample();
-sample1();
+hello(order);
+payment();
+serve();
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+// /*
+
+function sum(callback, x, y){
+    let result = x + y;
+    callback(result);
+}
+
+function displayOutput(result){
+    console.log(result);
+}
+
+// invoke the output
+sum(displayOutput, 5, 10);
+
+// stop this since you'll be invoking it right away
+// sum(displayOutput());
+
+
+
+// what we did here is we calculate the result first then 
+// after that process is finish then we're going to display the output
+
+// */
