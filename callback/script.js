@@ -81,7 +81,6 @@ function processPayment(callback) {
 
     let total = 300;
     let payment = 500;
-    payment = 200;
 
     console.log("Total amount: ₱" + total);
     console.log("Payment: ₱" + payment);
@@ -124,7 +123,7 @@ function prepareFood(callback) {
 
 // FUNCTION 5: Prepare the Food with set time out
 
-
+  
 // /*
 function prepareFood(callback) {
 

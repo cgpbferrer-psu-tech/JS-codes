@@ -102,8 +102,3 @@ console.log(person);
 
  */
 
-let score = 50;
-
-console.log(score);
-
-typeof 50;

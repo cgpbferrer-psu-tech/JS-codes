@@ -1,34 +1,37 @@
 let x;
 
 // Square root
-// x = Math.sqrt(4);
+// x = Math.sqrt(121);
+
 
 
 
 // Absolute value
-// x = Math.abs(100);
+// x = Math.abs(50);
+
+
 
 // // Round
-// x = Math.round(4.7);
+// x = Math.round(4.5);
 
+// 1-9 
 // // Round up
-// x = Math.ceil(4.1);
+// x = Math.ceil(4.9);
 
-
-
+// 0-9
 // // Round down
-// x = Math.floor(4.0);
+// x = Math.floor(4.9);
 
 
 
 
 // // Exponent
-// x = Math.pow(2, 3);
+// x = Math.pow(3, 4);
 
 
 
 // // Minimum number
-// x = Math.min(4, 5, 3);
+// x = Math.min(4, 5, 3, 2);
 
 
 

@@ -10,7 +10,7 @@ function halo (){
 
 halo();
 
-// to be converted as arrow function
+// to be converted as function expressions
 const hello1 = function(){
     console.log("hello");
 }

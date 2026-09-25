@@ -4,7 +4,7 @@
 // This function will log "Hello, World!" to the console after a delay of 2 seconds (2000 milliseconds)
 setTimeout(function(){
     console.log("Hello World");
-}, 2000);
+}, 500);
 
-console.log("This message is for you to wait for the code")
+// console.log("This message is for you to wait for the code");
 

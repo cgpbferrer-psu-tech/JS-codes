@@ -18,26 +18,27 @@
 // hello();
 
 
-// function sample(){
-//     setTimeout(() => {
-//     console.log("This is a sample function");
-//     }, 2000);
-// }
+/*
 
-// function sample1(){
-//     setTimeout(function () {
-//     console.log("This is a sample function");
-//     }, 2000);
-// }
+function sample(){
+    setTimeout(() => {
+    console.log("This is a sample function");
+    }, 2000);
+}
 
-// sample();
-// sample1();
+function sample1(){
+    setTimeout(function () {
+    console.log("This is a sample function");
+    }, 2000);
+}
+
+sample();
+sample1();
 
 
+*/
 
-
-
- /*
+/*
 
 // simple callback
 
@@ -53,6 +54,18 @@ function order(){
 }
 
 hello(order);
+
+
+function hello1(){
+    console.log("Hello");
+}
+// function 2
+function order1(){
+    console.log("What is your order?");
+}
+
+hello1();
+order1();
 
 
 */
@@ -116,7 +129,7 @@ serve();
 
 
 
-// /*
+/*
 
 function sum(callback, x, y){
     let result = x + y;
@@ -138,4 +151,4 @@ sum(displayOutput, 5, 10);
 // what we did here is we calculate the result first then 
 // after that process is finish then we're going to display the output
 
-// */
+*/

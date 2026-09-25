@@ -3,6 +3,7 @@
 
 let firstName = 'John';
 const lastName = 'Doe';
+var fullName = "JD";
 let age = 30;
 
 console.log(age);
